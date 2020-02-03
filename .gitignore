@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+models
+*.pdf
+*.svg
+Names
+Names.csv
+FL_insurane_sample.csv
