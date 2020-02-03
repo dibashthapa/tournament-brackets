@@ -15,7 +15,6 @@ with open('file.csv') as csv_file:
 def home():
     random.shuffle(Names)
     count=len(Names)
-    print(count)
     return render_template("index.html",names=Names,count=count)
 if __name__=='__main__':
     app.run(debug=True)
